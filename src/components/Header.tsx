@@ -33,7 +33,7 @@ const Header = () => {
           
           <div className="hidden md:flex items-center text-white text-sm">
             <Clock size={16} className="mr-2" />
-            <span>Seg-Sex: 08h às 17h45 | Sáb: 08h às 14h45</span>
+            <span>Seg-Sex: 08h às 17h45 | Sáb: 08h às 15h00</span>
           </div>
           
           {/* Mobile menu button */}
@@ -53,7 +53,7 @@ const Header = () => {
               Depoimentos
             </a>
             <a href="#garantia" className="text-white hover:text-[#FF6B00] transition-colors">
-              Garantia
+            
             </a>
             <CTAButton small />
           </nav>
@@ -87,7 +87,7 @@ const Header = () => {
               className="text-white py-2 hover:text-[#FF6B00] transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              Garantia
+      
             </a>
             <div className="py-2">
               <CTAButton onClick={() => setIsMenuOpen(false)} />

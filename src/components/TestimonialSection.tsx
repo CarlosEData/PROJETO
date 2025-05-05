@@ -5,19 +5,19 @@ const testimonials = [
   {
     name: "Carlos Mendes",
     vehicle: "Honda Civic 2018",
-    image: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg",
+    image: "https://lh3.googleusercontent.com/a-/ALV-UjVRFajGSaOur4b8zS_MBUIevriCz2PYRBaOR0zJ3NFvAbJ3xH30=w72-h72-p-rp-mo-ba1-br100",
     text: "Meu câmbio começou a apresentar trancos nas trocas de marcha. Após a troca de óleo, o problema desapareceu completamente. Serviço excelente e atendimento nota 10!"
   },
   {
     name: "Juliana Costa",
     vehicle: "Toyota Corolla 2016",
-    image: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg",
+    image: "https://lh3.googleusercontent.com/a-/ALV-UjWEwo4xCSPix4LrBBgBh1dPyWhOmzmXFS3pQyl44Wx8N48xI5pABA=w72-h72-p-rp-mo-ba1-br100",
     text: "Fiquei impressionada com a diferença na suavidade das trocas de marcha após o serviço. O carro ficou como novo e o atendimento foi super profissional."
   },
   {
     name: "Roberto Almeida",
     vehicle: "Jeep Compass 2020",
-    image: "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg",
+    image: "https://lh3.googleusercontent.com/a-/ALV-UjUIGHaNsgX0JZjUYaKkzyM8t3rZ9lWruWeSP3PpTOn5Ikh85OcTZA=w72-h72-p-rp-mo-ba1-br100",
     text: "Já havia feito a troca em outro lugar mas continuava com problemas. Depois que fiz aqui, o câmbio ficou perfeito. A diferença é nítida quando o serviço é feito com equipamento adequado."
   }
 ];

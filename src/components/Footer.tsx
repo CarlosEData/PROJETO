@@ -7,9 +7,9 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-8">
           <div>
-            <h3 className="text-xl font-bold mb-4 text-white">AutoTrans</h3>
+            <h3 className="text-xl font-bold mb-4 text-white">Esdras Oil</h3>
             <p className="mb-4">
-              Especialistas em transmissão automática com mais de 10 anos de experiência.
+              Especialistas em transmissão automática com mais de 12 anos de experiência.
               Nosso compromisso é oferecer o melhor serviço com transparência e qualidade.
             </p>
          
@@ -29,7 +29,7 @@ const Footer = () => {
              
               <li className="flex items-start">
                 <Clock size={20} className="mr-2 flex-shrink-0 mt-1" />
-                <span>Segunda a Sexta: 8h às 18h<br />Sábado: 8h às 12h</span>
+                <span>Segunda a Sexta: 8h às 18h<br />Sábado: 8h às 15h</span>
               </li>
             </ul>
           </div>
@@ -39,6 +39,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li><a href="#" className="hover:text-[#FF6B00] transition-colors">Troca de Óleo de motor e filtros</a></li>
               <li><a href="#" className="hover:text-[#FF6B00] transition-colors">Troca de óleo de câmbio automático</a></li>
+              <li><a href="#" className="hover:text-[#FF6B00] transition-colors">Troca de óleo de câmbio manual</a></li>
               <li><a href="#" className="hover:text-[#FF6B00] transition-colors">Troca de óleo de diferencial</a></li>
            
 

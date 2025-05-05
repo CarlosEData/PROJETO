@@ -20,18 +20,18 @@ const benefits = [
     icon: Database
   },
   {
-    title: "Limpeza de reservatório",
-    description: "Remoção de resíduos do conversor de torque para evitar contaminação do novo fluido.",
+    title: "Especialista de troca de óleo e transmissão",
+    description: "Com mais de 12 anos de experiência, equipe técnica certificada e tecnologia de ponta para garantir os melhores resultados.",
     icon: Gauge
   },
   {
     title: "Economia real",
-    description: "Previne reparos caros no futuro e reduz o consumo de combustível em até 8%.",
+    description: "quando passa por um tempo sem fazer a prevenção custo de reparo pode chegar até de 15 à 30 mil reais.",
     icon: PiggyBank
   },
   {
-    title: "Garantia estendida",
-    description: "Oferecemos garantia de 12 meses ou 15.000 km para sua total tranquilidade.",
+    title: "Serviço com garantia",
+    description: "+12 anos de mercado, técnicos com certificação e tecnologia de ponta.",
     icon: Shield
   }
 ];

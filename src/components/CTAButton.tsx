@@ -39,7 +39,7 @@ const CTAButton: React.FC<CTAButtonProps> = ({ small, onClick }) => {
     >
       <span className="relative z-10 flex items-center gap-2">
         <MessageCircle size={20} className="animate-bounce" />
-        Agendar via WhatsApp
+        Orçamento via WhatsApp
       </span>
       <div className="absolute inset-0 bg-gradient-to-r from-[#FF8C40] to-[#FF6B00] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
     </motion.button>

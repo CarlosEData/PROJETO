@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion';
 import CTAButton from './CTAButton';
 import { Gauge, Shield, Clock } from 'lucide-react';
-import carroImage from '../assets/carro.jpg'
+import carroImage from '../assets/imagemPrincipal.jpeg'
 const HeroSection = () => {
   return (
     <section className="pt-24 md:pt-32 pb-16 md:pb-24 bg-gradient-to-br from-[#1B263B] to-[#0D1B2A] text-white overflow-hidden relative">
@@ -28,8 +28,7 @@ const HeroSection = () => {
               "Porque performance não aceita descuido."
             </p>
             <p className="text-lg md:text-xl mb-10 text-gray-300">
-              Especialistas em prolongar a vida útil do seu câmbio automático com técnica, 
-              equipamento de ponta e os melhores fluidos do mercado.
+            Seu câmbio merece o melhor: usamos máquina de diálise, scanner e teste de fluido para máxima performance e durabilidade.
             </p>
             
             <div className="mb-8">
@@ -47,21 +46,21 @@ const HeroSection = () => {
                 className="flex flex-col items-center text-center p-4 bg-white/5 rounded-lg backdrop-blur-sm"
               >
                 <Gauge className="text-[#FF6B00] mb-2" size={24} />
-                <span className="text-sm">Precisão Total</span>
+                <span className="text-sm">Troca 100%</span>
               </motion.div>
               <motion.div
                 whileHover={{ y: -5 }}
                 className="flex flex-col items-center text-center p-4 bg-white/5 rounded-lg backdrop-blur-sm"
               >
                 <Shield className="text-[#FF6B00] mb-2" size={24} />
-                <span className="text-sm">Garantia 12 Meses</span>
+                <span className="text-sm">Serviço com garantia</span>
               </motion.div>
               <motion.div
                 whileHover={{ y: -5 }}
                 className="flex flex-col items-center text-center p-4 bg-white/5 rounded-lg backdrop-blur-sm"
               >
                 <Clock className="text-[#FF6B00] mb-2" size={24} />
-                <span className="text-sm">2h de Serviço</span>
+                <span className="text-sm">2H à 3H de serviço</span>
               </motion.div>
             </div>
           </motion.div>
@@ -76,7 +75,7 @@ const HeroSection = () => {
               <img 
                 src={carroImage} 
                 alt="Troca de óleo profissional"
-                className="rounded-lg shadow-2xl transform -rotate-2 hover:rotate-0 transition-transform duration-500"
+                className="rounded-lg shadow-2xl transform -rotate-2 hover:rotate-0 transition-transform duration-500 h-[500px] w-full"
               />
               <div className="absolute inset-0 bg-gradient-to-tr from-[#1B263B]/50 to-transparent rounded-lg" />
             </div>

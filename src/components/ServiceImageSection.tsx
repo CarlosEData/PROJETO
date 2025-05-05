@@ -1,4 +1,4 @@
-
+import maquina from '../assets/maquina.jpeg'
 
 const ServiceImageSection = () => {
   return (
@@ -34,9 +34,9 @@ const ServiceImageSection = () => {
           <div className="md:w-1/2">
             <div className="rounded-lg overflow-hidden shadow-xl">
               <img 
-                src="https://atrialub.com.br/wp-content/uploads/2018/11/catalogo_fundo_lust.jpg" 
+                src={maquina} 
                 alt="Mecânico realizando troca de óleo de câmbio" 
-                className="w-full h-auto object-cover"
+                className="w-full object-cover h-[500px]"
               />
             </div>
             <p className="text-sm text-gray-500 mt-3 text-center">
