@@ -1,4 +1,4 @@
-import maquina from '../assets/maquina.jpeg'
+import maquina from '../assets/maquina2.jpeg';
 
 const ServiceImageSection = () => {
   return (
@@ -14,7 +14,7 @@ const ServiceImageSection = () => {
             </p>
             <ul className="space-y-3 mb-8">
               {[
-                "Troca completa sem mistura com o fluido antigo",
+                "Troca completa utilizando maquina diálise sem misturar com o fluido antigo",
                 "Calibragem eletrônica da pressão do sistema",
                 "Remoção e limpeza do filtro de transmissão",
                 "Verificação dos solenoides e sensores",
