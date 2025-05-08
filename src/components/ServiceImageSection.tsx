@@ -1,4 +1,4 @@
-import maquina from '../assets/maquina2.jpeg';
+import maquina from '../assets/maquina3.jpeg';
 
 const ServiceImageSection = () => {
   return (
