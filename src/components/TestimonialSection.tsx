@@ -1,18 +1,20 @@
 
 import CTAButton from './CTAButton';
-
+import josuelDepoimento from '../assets/josueldepoimento.png'
+import brunadepoimento from '../assets/brunadepoimento.png'
+import andreiadepoimento from '../assets/andreiadepoimento.png'
 const testimonials = [
   {
-    name: "Sidney Moreira",
-    vehicle: "Caoa Chery Tiggo5x",
-    image: "https://lh3.googleusercontent.com/a-/ALV-UjVRFajGSaOur4b8zS_MBUIevriCz2PYRBaOR0zJ3NFvAbJ3xH30=w72-h72-p-rp-mo-ba1-br100",
-    text: "Troquei o óleo de câmbio do meu tiggox5 super recomendo bom serviço.Obrigada Igor Sanatana que fez o serviço de troca de óleo do meu carro"
+    name: "Josuel Jesus",
+    vehicle: "Honda FIT",
+    image: [josuelDepoimento],
+    text: "Melhor serviço de troca de fluídos da região, troquei óleo de câmbio e motor do meu Honda FIT, Serviços diferenciados, com profissionais dedicado e atenciosos. Valeu Guilherme por ter deixado meu carro ainda melhor Man, forte abraço! Até a próxima."
   },
   {
-    name: "Diego Rodrigues",
-    vehicle: "Honda Fit",
-    image: "https://lh3.googleusercontent.com/a-/ALV-UjWEwo4xCSPix4LrBBgBh1dPyWhOmzmXFS3pQyl44Wx8N48xI5pABA=w72-h72-p-rp-mo-ba1-br100",
-    text: "Levei o meu honda fit automatico para trocar o oleo de cambio,chegando la quem me atendeu foi o Lucas, o mesmo fez o serviço completo, obrigado Lucas pelo Trampo prestado e tambem pelas informaçãoes que foi me passando, transparência e clareza  do serviço!"
+    name: "Bruna Matias",
+    vehicle: "HB20s",
+    image: [brunadepoimento],
+    text: "SUPER RECOMENDO, fiz a troca de óleo do câmbio automático do meu Hb20s, o atendente Bruno superou todas as expectativas, fizeram teste do óleo que estava no câmbio (nível, odor e cor), fizeram o teste de rodagem e depois efetuaram a troca do óleo, limparam o motor, trocaram filtro do câmbio, fizeram manutenção no cárter, simplesmente amei, sai com o carro com o funcionamento perfeito e sem nenhum ruído. Além da agilidade no atendimento e no serviço. Parabéns pelo ótimo trabalho Bruno."
   },
   {
     name: "Roberto Almeida",
@@ -20,10 +22,10 @@ const testimonials = [
     image: "https://lh3.googleusercontent.com/a-/ALV-UjUIGHaNsgX0JZjUYaKkzyM8t3rZ9lWruWeSP3PpTOn5Ikh85OcTZA=w72-h72-p-rp-mo-ba1-br100",
     text: "Já havia feito a troca em outro lugar mas continuava com problemas. Depois que fiz aqui, o câmbio ficou perfeito. A diferença é nítida quando o serviço é feito com equipamento adequado."
   },
-  {name: "Ernandes Pedro",
-    vehicle: "6 meses atras",
-    image: "https://lh3.googleusercontent.com/a-/ALV-UjWEiIlZWYf9J8BEhcuL3veLn-1c8e1oCPM-DEfnsQ2oQn52ZLs86A=w144-h144-p-rp-mo-ba2-br100",
-    text: "Ótimo atendimento e profissionalismo impecável. Melhor serviço do tipo na região oeste!"
+  {name: "Andreia Araujo",
+    vehicle: "2 semanas atras",
+    image: [andreiadepoimento],
+    text: "Atendimento muito eficiente e justo. Já realizo troca de óleo com a loja há alguns anos e retornei para troca de óleo de câmbio automático. Seguro e preço justo. Óleo correto de acordo com as especificações do veículo. Excelente atendimento feito pelo Guilherme. Super indico"
 
 
   },
