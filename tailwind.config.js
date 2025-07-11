@@ -3,23 +3,30 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      fontFamily: {
+        'serif': ['Playfair Display', 'serif'],
+        'sans': ['Inter', 'sans-serif'],
+      },
       colors: {
-        primary: {
-          DEFAULT: '#1B263B',
-          light: '#2d3e5e',
-          dark: '#121b2a'
-        },
-        secondary: {
-          DEFAULT: '#FF6B00',
-          light: '#FF8C40',
-          dark: '#E55A00'
+        'gold': '#D4AF37',
+        'yellow': {
+          500: '#D4AF37',
+          400: '#E6C757',
         }
       },
-      fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
+      animation: {
+        'fade-in': 'fadeIn 0.5s ease-in-out',
+        'slide-up': 'slideUp 0.5s ease-out',
       },
-      boxShadow: {
-        'inner-top': 'inset 0 4px 6px -1px rgba(0, 0, 0, 0.1)',
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+        slideUp: {
+          '0%': { transform: 'translateY(20px)', opacity: '0' },
+          '100%': { transform: 'translateY(0)', opacity: '1' },
+        },
       },
     },
   },
